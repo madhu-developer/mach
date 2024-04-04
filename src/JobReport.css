@@ -1,0 +1,52 @@
+.jobreport-container{
+    background-color:whitesmoke;
+    width:auto;
+}
+.jobreport-heading-section{
+    padding:0.01rem;
+    background:rgb(201, 198, 198);
+    margin:10px 0px 10px 10px;
+}
+
+.jobreport-heading{
+    color:rgb(99, 98, 98);
+    font-size:20px;
+    padding-left:15px;
+    font-weight:600;
+}
+.buttons{
+    padding:0px 30px;
+}
+.button{
+    background: #007bff;
+    padding:8px 20px;
+    border:none;
+    margin:2px;
+    border-radius:3px;
+    color:white;
+}
+.report-options-container{
+    display:flex;
+    justify-content:space-between;
+}
+.search-container{
+    display:flex;
+    margin:10px;
+}
+.report-table{
+    margin:10px;
+    padding:10px;
+}
+table,th,td{
+    border-collapse:collapse;
+}
+th{
+    padding:15px 10px;
+}
+.each-column{
+    background:rgb(201, 198, 198);
+}
+
+td{
+    text-align:center;
+}

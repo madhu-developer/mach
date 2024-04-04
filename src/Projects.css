@@ -1,0 +1,21 @@
+.projects-container{
+    background-color:whitesmoke;
+    width:auto;
+    padding-top:60px;
+    margin-left:200px;
+}
+.project-heading-section{
+    padding:0.01rem;
+    background:rgb(201, 198, 198);
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.project-heading{
+    color:rgb(99, 98, 98);
+    font-size:20px;
+    padding-left:15px;
+    font-weight:600;
+}

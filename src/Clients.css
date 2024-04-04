@@ -1,0 +1,36 @@
+.clients-container{
+    background-color:whitesmoke;
+    width:auto;
+    padding-top:60px;
+    margin-left:200px;
+}
+.client-heading-section{
+    background:rgb(201, 198, 198);
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.client-heading{
+    color:rgb(99, 98, 98);
+    font-size:20px;
+    padding-left:15px;
+    font-weight:600;
+}
+
+.add-client-button{
+    background: #007bff;
+    padding:8px 20px;
+    border:none;
+    margin:15px;
+    border-radius:3px;
+    color:white;
+}
+.clients-table{
+    width:100%;
+}
+.client-options-container{
+    display:flex;
+    justify-content:space-between;
+    margin:15px;
+}
