@@ -24,15 +24,18 @@ export const Projects = () => {
     fetchedProjectData();
   }, []);
 
-  const searchProjects = (e) => {
-    const searchTerm = e.target.value.toLowerCase();
-    setSearchText(searchTerm);
-    const filteredProjects = projectData.filter(
-      (eachObj) =>
-        eachObj.project.toLowerCase().includes(searchTerm)
-    );
-    setFilteredData(filteredProjects);
-  };
+  useEffect(() => {
+        const searchProjects = () => {
+            const searchTerm = searchText.toLowerCase();
+            const filteredProjects = projectData.filter(
+                (eachObj) =>
+                    eachObj.client.toLowerCase().includes(searchTerm)
+            );
+            setFilteredData(filteredProjects);
+        };
+
+        searchProjects();
+    }, [projectData, searchText]);
 
   const hideProject = (id) => {
     const newData= projectData.filter(eachProj => eachProj.id !== id);
